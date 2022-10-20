@@ -1,0 +1,281 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+background-color:white;
+padding: 15px;
+color: black;
+text-align: center;
+position: fixed;
+width: 100%;
+}
+
+footer {
+    
+    padding: 25px;
+    margin-top: 20px;
+    text-align: center;
+    margin-top:0px;
+    }
+
+.footergif {
+    background-color: white;
+}
+
+nav {
+    width: 600px;
+    height: 700px;
+    float: right;
+
+}
+
+aside {
+    background-color:#D5D5D5;
+    width: 600px;
+    color: black;
+}
+
+article {
+    background-color: lightblue;
+    padding: 25px;
+    width: 15%;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+li {
+    padding: 75px;
+}
+li {
+    text-decoration: none;
+    color: red;
+}
+
+.aside_padding {
+    padding: 25%;
+    text-align: center;
+}
+
+.aside_padding2 {
+    padding: 25%;
+    margin-top: -250px;
+    text-align: center;
+    font-size: 20PX;
+    width: 250px;
+    margin-left: -28px;
+}
+
+.lettertype {
+    font-family: 'Ms Madi', cursive;
+    font-size: 100px;
+    margin-left: 230px;
+
+}
+
+.lettertype2 {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 100px;
+    margin-left: 230px;
+
+}
+
+.lettertype3 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 100px;
+    margin-left: 230px;
+}
+
+button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: line-through;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.text123 {
+    height: 100vh;
+    width: 70vh;
+    min-width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    background-color: grey;
+    color: white;
+    
+}
+
+.margin_text {
+    margin-bottom: 45px;
+}
+
+.font_size1 {
+    font-size: 50px;
+}
+
+.font_size2 {
+    font-size: 25px;
+}
+
+.justbackgroud {
+    background-color: black;
+    width: 500px;
+    color: white;
+    
+}
+
+.footer_margin {
+    margin-bottom: 1000px;
+}
+
+section {
+    height: auto;
+    width: auto;
+}
+
+.justify1 {
+    justify-content: center;
+
+}
+
+.textcenter {
+    text-align: center;
+}
+
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    grid-template-areas: 
+    "content images footer"
+    "content images footer"
+    "content images footer";
+    border: 30px solid #424242;
+    height: auto;
+    justify-items: stretch;
+
+}
+
+.insidegrid {
+    border: 6px solid black;
+}
+
+
+.grid0 {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-columns:
+    "content images"
+    "content images"
+    "content images";
+    height: auto;
+    border: 15px solid #424242;
+    
+}
+
+.background3 {
+    background-color:#D5D5D5
+}
+
+.topmargin {
+    margin-top: 200px;
+}
+
+.centerimages {
+    padding: 25px;
+    margin-top: 20px;
+    text-align: center;
+    margin-top:0px;
+}
+
+.centerintems {
+    align-items: center;
+    text-align: center;
+ 
+}
+
+.centerintems2 {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    height: auto;
+    grid-template-areas: 
+    "beginning end"
+    ;
+
+
+}
+
+.border5 {
+    border: 6px solid red;
+}
+
+.lettertype4 {
+    font-family: 'Ms Madi', cursive;
+    font-size: 70px;
+    margin-left: 230p
+}
+
+.button12{
+    display: block;
+    background-color: red;
+    color: white;
+    text-decoration: line-through;
+    font-size: 16px;
+}
+
+.letterfont1 {
+    font-family: 'Rye', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+.margintop1 {
+    margin-top: 200px;
+}
+
+.letterfont2 {
+    font-family: 'Oldenburg', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+.hatmargin {
+    margin-top: -25px;
+}
+
+.footerned {
+    background-color:white;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+.fontletter2 {
+    font-family: 'Miltonian Tattoo', cursive;
+    font-size: 25px;
+    text-align: center;
+}
+
+.centertext1 {
+    text-align: center;
+}
+
+.topmargin5 {
+    margin-top: 40px;
+}
